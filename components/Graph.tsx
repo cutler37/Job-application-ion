@@ -49,11 +49,6 @@ export default function TabTwoScreen() {
         }
     }   
 
-    console.log('state')    
-    console.log(data[date])
-    console.log(state)
-    console.log(date)
-
     return (
         <View style={styles.chartContainer}>
             <Text>Covid data for today in {state}</Text>
